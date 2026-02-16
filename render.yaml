@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: amazing-image-identifier
+    env: docker
+    plan: starter
+    region: virginia
+    healthCheckPath: /health
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: MAX_WORKERS
+        value: 2
+    autoDeploy: true

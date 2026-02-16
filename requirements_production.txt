@@ -1,0 +1,39 @@
+# Core Framework (TR-26)
+Flask==3.0.0
+flask-cors==4.0.0
+gunicorn==21.2.0
+
+# Deep Learning Frameworks (TR-28)
+torch==2.6.0
+torchvision==0.16.0
+transformers==4.35.0
+
+# Computer Vision (TR-24)
+opencv-python-headless==4.8.1.78
+Pillow==10.1.0
+
+# OCR (FR-09)
+easyocr==1.7.1
+
+# Utilities
+numpy==1.24.3
+python-magic==0.4.27
+requests==2.31.0
+
+# Database (TR-29)
+# SQLite is built into Python, no separate install needed
+
+# Security
+werkzeug==3.0.1
+
+# For audio generation (FR-10)
+gTTS==2.4.0
+
+# Testing (TR-40)
+pytest==7.4.3
+pytest-flask==1.3.0
+pytest-cov==4.1.0
+
+# Code Quality (TR-39)
+black==23.11.0
+flake8==6.1.0
